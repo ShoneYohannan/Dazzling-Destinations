@@ -49,31 +49,31 @@
 Dazzling-Destinations/
 ├── .github/
 │   └── workflows/
-│       └── deploy.yml          # GitHub Pages automated deployment workflow
-├── public/                     # Static public assets & favicons
+│       └── deploy.yml         
+├── public/                   
 ├── src/
-│   ├── components/             # Reusable UI components
-│   │   ├── Navbar.jsx          # Header navigation & brand branding
-│   │   ├── Hero.jsx            # Immersive hero section with CTA buttons
-│   │   ├── IntroSection.jsx    # Editorial introductory narrative
-│   │   ├── DestinationGrid.jsx # Interactive destinations gallery & filter
-│   │   ├── WhyTravelWithUs.jsx # Brand pillars & luxury commitments
-│   │   ├── ExperienceShowcase.jsx # Curated private experiences
-│   │   ├── TourModal.jsx       # Concierge booking & inquiry modal
-│   │   ├── TestimonialSlider.jsx # Verified customer review cards
-│   │   ├── CTASection.jsx      # Bottom newsletter & contact invitation
-│   │   └── Footer.jsx          # Footer links, social handles & copyright
-│   ├── data/                   # Structured content & metadata
-│   │   ├── destinations.js     # Destination cards data
-│   │   ├── experiences.js      # Private experience entries
-│   │   ├── testimonials.js     # Guest reviews dataset
-│   │   └── tours.js            # Featured luxury tour packages
-│   ├── App.jsx                 # Main application layout & state
-│   ├── main.jsx                # Application root mounting
-│   └── index.css               # Global styles & design system tokens
-├── index.html                  # HTML entry point with Google Fonts
-├── vite.config.js              # Vite configuration (Base path setup)
-└── package.json                # Project dependencies & scripts
+│   ├── components/            
+│   │   ├── Navbar.jsx       
+│   │   ├── Hero.jsx            
+│   │   ├── IntroSection.jsx    
+│   │   ├── DestinationGrid.jsx 
+│   │   ├── WhyTravelWithUs.jsx 
+│   │   ├── ExperienceShowcase.jsx 
+│   │   ├── TourModal.jsx       
+│   │   ├── TestimonialSlider.jsx 
+│   │   ├── CTASection.jsx      
+│   │   └── Footer.jsx          
+│   ├── data/                   
+│   │   ├── destinations.js     
+│   │   ├── experiences.js      
+│   │   ├── testimonials.js     
+│   │   └── tours.js            
+│   ├── App.jsx                 
+│   ├── main.jsx                
+│   └── index.css               
+├── index.html                 
+├── vite.config.js              
+└── package.json                
 ```
 
 ---
