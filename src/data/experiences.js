@@ -4,7 +4,7 @@ export const experiences = [
     title: "Adventure",
     subtitle: "High-Altitude Thrills & Wild Expeditions",
     description: "Conquer steep powder slopes, traverse golden desert dunes at dusk, and navigate wild alpine rivers.",
-    image: "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1400&q=85",
+    image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&w=1400&q=85",
     tags: ["Heli-Skiing", "Desert Safari", "Rafting", "Mountain Trekking"],
     accentColor: "#D4AF37"
   },
