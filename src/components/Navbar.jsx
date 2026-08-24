@@ -44,14 +44,14 @@ export default function Navbar({ onOpenModal }) {
             className="group flex items-center gap-3 text-[#FBF9F5] focus:outline-none"
             data-cursor="Home"
           >
-            <div className="w-11 h-11 rounded-full overflow-hidden border border-[#D4AF37]/50 shadow-md group-hover:scale-105 transition-transform duration-300 bg-[#121619] shrink-0">
-              <img src="./logo.png" alt="Dazzling Destinations Logo" className="w-full h-full object-cover" />
+            <div className="w-16 h-16 md:w-20 md:h-20 rounded-full overflow-hidden border-2 border-[#D4AF37] shadow-xl group-hover:scale-105 transition-transform duration-300 bg-[#121619] shrink-0 ring-2 ring-[#D4AF37]/30">
+              <img src="./logo.png" alt="Dazzling Destinations Logo" className="w-full h-full object-cover scale-105" />
             </div>
             <div className="flex flex-col">
-              <span className="font-serif-luxury text-xl md:text-2xl font-bold tracking-wide uppercase text-[#FBF9F5]">
-                Dazzling<span className="text-[#D4AF37] font-sans font-light text-lg">.</span>
+              <span className="font-serif-luxury text-2xl md:text-3xl font-bold tracking-wide uppercase text-[#FBF9F5]">
+                Dazzling<span className="text-[#D4AF37] font-sans font-light text-xl">.</span>
               </span>
-              <span className="text-[9px] uppercase tracking-[0.25em] text-[#E8DFD1]/80 font-medium -mt-1">
+              <span className="text-[10px] md:text-[11px] uppercase tracking-[0.3em] text-[#D4AF37] font-semibold -mt-1">
                 Destinations
               </span>
             </div>
@@ -114,8 +114,8 @@ export default function Navbar({ onOpenModal }) {
             {/* Mobile Header */}
             <div className="relative z-10 flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full overflow-hidden border border-[#D4AF37]/50 shadow-md bg-[#121619] shrink-0">
-                  <img src="./logo.png" alt="Dazzling Destinations Logo" className="w-full h-full object-cover" />
+                <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-[#D4AF37] shadow-lg bg-[#121619] shrink-0">
+                  <img src="./logo.png" alt="Dazzling Destinations Logo" className="w-full h-full object-cover scale-105" />
                 </div>
                 <span className="font-serif-luxury text-xl font-bold uppercase tracking-wider">
                   Dazzling Destinations

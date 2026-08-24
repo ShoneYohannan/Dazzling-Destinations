@@ -24,11 +24,11 @@ export default function Footer({ onOpenModal }) {
           {/* Brand Info */}
           <div className="lg:col-span-4 flex flex-col justify-between">
             <div>
-              <a href="#hero" className="flex items-center gap-3 group">
-                <div className="w-12 h-12 rounded-full overflow-hidden border border-[#D4AF37]/50 shadow-lg bg-[#121619] shrink-0">
-                  <img src="./logo.png" alt="Dazzling Destinations Logo" className="w-full h-full object-cover" />
+              <a href="#hero" className="flex items-center gap-4 group">
+                <div className="w-20 h-20 rounded-full overflow-hidden border-2 border-[#D4AF37] shadow-2xl bg-[#121619] shrink-0 ring-2 ring-[#D4AF37]/30">
+                  <img src="./logo.png" alt="Dazzling Destinations Logo" className="w-full h-full object-cover scale-105" />
                 </div>
-                <span className="font-serif-luxury text-2xl font-bold uppercase tracking-wider text-[#FBF9F5]">
+                <span className="font-serif-luxury text-2xl md:text-3xl font-bold uppercase tracking-wider text-[#FBF9F5]">
                   Dazzling Destinations
                 </span>
               </a>
