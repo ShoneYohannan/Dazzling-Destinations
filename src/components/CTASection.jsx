@@ -57,12 +57,12 @@ export default function CTASection({ onOpenModal }) {
       <div className="absolute inset-0 overflow-hidden">
         <img
           ref={bgImgRef}
-          src="https://images.unsplash.com/photo-1566837945700-30057527ade0?auto=format&fit=crop&w=2000&q=90"
-          alt="Kashmir Dal Lake Shikara Sunset"
+          src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=2000&q=90"
+          alt="Misty Mountain Peaks at Dawn - Dazzling Destinations"
           className="w-full h-full object-cover object-center will-change-transform scale-110"
         />
         {/* Dark Vignette Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#121619] via-[#121619]/60 to-[#121619]/80" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#121619] via-[#121619]/50 to-[#121619]/70" />
       </div>
 
       {/* Content Box */}
