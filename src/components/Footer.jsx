@@ -25,8 +25,8 @@ export default function Footer({ onOpenModal }) {
           <div className="lg:col-span-4 flex flex-col justify-between">
             <div>
               <a href="#hero" className="flex items-center gap-3 group">
-                <div className="w-10 h-10 rounded-full bg-[#2A4A3E] border border-[#D4AF37]/40 flex items-center justify-center">
-                  <Compass className="w-5 h-5 text-[#D4AF37]" />
+                <div className="w-12 h-12 rounded-full overflow-hidden border border-[#D4AF37]/50 shadow-lg bg-[#121619] shrink-0">
+                  <img src="./logo.png" alt="Dazzling Destinations Logo" className="w-full h-full object-cover" />
                 </div>
                 <span className="font-serif-luxury text-2xl font-bold uppercase tracking-wider text-[#FBF9F5]">
                   Dazzling Destinations

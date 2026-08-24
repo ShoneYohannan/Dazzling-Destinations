@@ -44,8 +44,8 @@ export default function Navbar({ onOpenModal }) {
             className="group flex items-center gap-3 text-[#FBF9F5] focus:outline-none"
             data-cursor="Home"
           >
-            <div className="w-10 h-10 rounded-full bg-[#2A4A3E] border border-[#D4AF37]/40 flex items-center justify-center transition-transform duration-500 group-hover:rotate-45 group-hover:scale-105">
-              <Compass className="w-5 h-5 text-[#D4AF37]" />
+            <div className="w-11 h-11 rounded-full overflow-hidden border border-[#D4AF37]/50 shadow-md group-hover:scale-105 transition-transform duration-300 bg-[#121619] shrink-0">
+              <img src="./logo.png" alt="Dazzling Destinations Logo" className="w-full h-full object-cover" />
             </div>
             <div className="flex flex-col">
               <span className="font-serif-luxury text-xl md:text-2xl font-bold tracking-wide uppercase text-[#FBF9F5]">
@@ -114,8 +114,8 @@ export default function Navbar({ onOpenModal }) {
             {/* Mobile Header */}
             <div className="relative z-10 flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <div className="w-9 h-9 rounded-full bg-[#2A4A3E] border border-[#D4AF37]/40 flex items-center justify-center">
-                  <Compass className="w-5 h-5 text-[#D4AF37]" />
+                <div className="w-10 h-10 rounded-full overflow-hidden border border-[#D4AF37]/50 shadow-md bg-[#121619] shrink-0">
+                  <img src="./logo.png" alt="Dazzling Destinations Logo" className="w-full h-full object-cover" />
                 </div>
                 <span className="font-serif-luxury text-xl font-bold uppercase tracking-wider">
                   Dazzling Destinations
